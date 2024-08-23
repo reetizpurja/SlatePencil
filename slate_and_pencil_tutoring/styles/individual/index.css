@@ -1,0 +1,38 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a b c"
+    ". d .";
+  align-items: center;
+  justify-items: center;
+  padding: 10px 70px;
+}
+main section:first-child(1) {
+  grid-area: a;
+}
+
+main section:nth-child(2) {
+  grid-area: b;
+}
+
+main section:nth-child(3) {
+  grid-area: c;
+}
+
+main section:nth-child(4) {
+  grid-area: d;
+  justify-self: center;
+}
+
+main section {
+  padding: 30px;
+}
+
+section p {
+  color: #6b1aa2;
+}
+
+main img {
+  width: 50%;
+}

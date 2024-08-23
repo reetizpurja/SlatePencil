@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "c d"
+    "e f";
+  gap: 50px;
+}
+
+aside:nth-child(a) {
+  grid-area: a;
+}
+
+aside:nth-child(b) {
+  grid-area: b;
+}
+
+aside:nth-child(c) {
+  grid-area: c;
+}
+
+aside:nth-child(d) {
+  grid-area: d;
+}
+
+aside:nth-child(e) {
+  grid-area: e;
+}
+
+aside:nth-child(f) {
+  grid-area: f;
+}
+
+p {
+  color: #4305a6;
+}
+
+.row {
+  font-size: large;
+}
+
+main aside {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}

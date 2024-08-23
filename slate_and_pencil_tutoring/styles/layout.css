@@ -1,0 +1,15 @@
+/* index.html */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "logo logo navv"
+    "navh navh navh"
+    "main main main"
+    "foot foot foot";
+}
+
+/* hours.html */
+
+/* testimo.html */
